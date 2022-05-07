@@ -18,13 +18,17 @@ Essa etapa tem por objetivo testar a instalação do Node.js, Sqlite3, verificar
    `npm install express –save`
 
 7. GitHub:
-   > 1. Criar conta pessoal (com e-mail Inteli)
   
-   > 2. Baixar e instalar o GitHub Desktop
+   > \* Baixar e instalar o GitHub Desktop se ainda não a tiver instalada
 
-   > 3. Clonar este repositório repositório (File-Clone Repository) na sua maquina local (aba URL) [https://github.com/Intelihub/Tutorial_M2/]() escolhendo um diretório (pasta) do seu computador para que esse repositório do git seja clonado (Ex: C:\MODULO02_TUTORIAL).
+   > 1. Clonar este repositório repositório (File-Clone Repository) na sua máquina (aba URL da tela de "Clone Repository") [https://github.com/Intelihub/Tutorial_M2/](https://github.com/Intelihub/Tutorial_M2/) escolhendo um diretório (pasta) do seu computador para que esse repositório do git seja clonado (Ex: C:\MODULO02_TUTORIAL).
 
-   > 4. Clonar o seguinte repositório (File-Clone Repository) na sua maquina local (aba URL) [https://github.com/Intelihub/Template_Aluno](), escolhendo um diretório (pasta) do seu computador para que esse repositório do git seja clonado (Ex: C:\MODULO02_MEUGIT).
+   > \* Criar conta pessoal (com e-mail Inteli) ou entrar na sua conta se já a tiver
+
+   > 2. Fork do repositório [https://github.com/Intelihub/Template_Aluno](https://github.com/Intelihub/Template_Aluno), dando o nome `modulo2`.
+
+   > 3. Clone esse repositório `modulo2` na sua máquina.
+
 
 ### Instruções
 
@@ -39,19 +43,22 @@ Essa etapa tem por objetivo testar a instalação do Node.js, Sqlite3, verificar
 
 	`node app_11.js`
 
-	**Confira o resultado no NAVEGADOR:** [http://127.0.0.1:3011/]()
+	**Confira o resultado no NAVEGADOR:** [http://127.0.0.1:3011/](http://127.0.0.1:3011/)
 
 	`Etapa 1 - INSTALACAO - Servidor Node.js`
 
 	`Meu servidor NODE.js funciona!`
-
+	
 3. Semelhante ao feito em `2`, execute:
+
+	\* Para executar os comandos a seguir na mesma janela do terminal, você pode encerrar o processo iniciado pelo comando node do passo `2` utilizando o atalho `CTRL + C` pode ser utilizado! PS: note que, dessa forma, o resultado do passo 2 não estará mais disponível (link [http://127.0.0.1:3011/](http://127.0.0.1:3011/) não funcionará mais), pois o servidor que estava rodando na porta 3011 foi encerrado.
+
 
 	`npm install sqlite3`
 
   	`node app_12.js`
    
-	**Confira o resultado no NAVEGADOR:** [http://127.0.0.1:3012/]()
+	**Confira o resultado no NAVEGADOR:** [http://127.0.0.1:3012/](http://127.0.0.1:3012/)
 
 	`Etapa 1 - INSTALACAO`
    
@@ -63,7 +70,7 @@ Essa etapa tem por objetivo testar a instalação do Node.js, Sqlite3, verificar
 
 	`node app_13.js`
 
-	**Confira o resultado no NAVEGADOR:** [http://127.0.0.1:3013/?nome=andre]()
+	**Confira o resultado no NAVEGADOR:** [http://127.0.0.1:3013/?nome=andre](http://127.0.0.1:3013/?nome=andre)
 	
 	`Etapa 1 - INSTALACAO - EndPoint "GET"`
    
